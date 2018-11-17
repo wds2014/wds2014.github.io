@@ -11,7 +11,7 @@ github_repo: "/https://wds2014.github.io/.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
+sidebar-about-description: "有东升的地方就一定有阳光"
 sidebar-avatar: /img/wds.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
