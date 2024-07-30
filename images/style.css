@@ -1,13 +1,36 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --link-color: #007BFF;
+    --link-hover-color: #0056b3;
+    --hover-bg-color: #f0f0f0;
+    --hover-shadow-color: rgba(0, 0, 0, 0.1);
+    --sidebar-bg-color: #f4f4f4;
+    --publication-bg-color: #f188e10a;
+    --foot-bg-color: #eeeeee;
+    --foot-text-color: #909090;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #121212;
+        --text-color: #e0e0e0;
+        --link-color: #5393ff;
+        --link-hover-color: #82aaff;
+        --hover-bg-color: #333333;
+        --hover-shadow-color: rgba(255, 255, 255, 0.1);
+        --sidebar-bg-color: #1e1e1e;
+        --publication-bg-color: #2a2a2a;
+        --foot-bg-color: #1e1e1e;
+        --foot-text-color: #cccccc;
+    }
+}
+
 body {
-    scrollbar-face-color: #CCCCCC;
-    scrollbar-shadow-color: #999999;
-    scrollbar-highlight-color: #999999;
-    scrollbar-3dlight-color: #EAEAEA;
-    scrollbar-darkshadow-color: #EAEAEA;
-    scrollbar-track-color: #EAEAEA;
-    scrollbar-arrow-color: #999999;
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
 
 .container {
@@ -36,7 +59,7 @@ header img, footer img {
 
 .sidebar {
     width: 15vw; /* Sidebar width as a percentage of viewport width */
-    background-color: #f4f4f4;
+    background-color: var(--sidebar-bg-color);
     padding: 10px;
     overflow-y: auto;
 }
@@ -84,7 +107,7 @@ nav .nav-table {
 nav .menu a {
     display: block;
     padding: 5px 0 5px 10px;
-    color: #EE7700;
+    color: var(--link-color);
     font-family: "Times New Roman", sans-serif;
     font-size: 16px;
     text-decoration: none;
@@ -93,11 +116,11 @@ nav .menu a {
 }
 
 nav .menu a:hover {
-    color: #8142bf;
+    color: var(--link-hover-color);
 }
 
 .articlesubtitle {
-    color: #555577;
+    color: var(--text-color);
     font-family: "Times New Roman", sans-serif;
     font-size: 16px;
     font-weight: bold;
@@ -122,10 +145,10 @@ ul.articlesubtitle li {
 }
 
 .foot {
-    color: #909090;
+    color: var(--foot-text-color);
     font-family: "Times New Roman", sans-serif;
     font-size: 12px;
-    background-color: #eee;
+    background-color: var(--foot-bg-color);
     padding: 20px 0;
 }
 
@@ -134,7 +157,7 @@ footer p {
 }
 
 .article {
-    color: #555577;
+    color: var(--text-color);
     font-family: "Times New Roman", sans-serif;
     font-size: 12px;
     line-height: 18px;
@@ -151,14 +174,14 @@ footer p {
     margin-bottom: 20px;
     padding: 10px;
     border-radius: 5px;
-    background-color: #f188e10a;
+    background-color: var(--publication-bg-color);
     transition: background-color 0.3s, box-shadow 0.3s;
     flex-wrap: wrap; /* Allow wrapping for smaller screens */
 }
 
 .publication-item:hover {
-    background-color: #f0f0f0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 4px 8px var(--hover-shadow-color);
 }
 
 .publication-image {
@@ -179,7 +202,7 @@ footer p {
 
 .publication-title {
     font-size: 1.2em;
-    color: #007BFF;
+    color: var(--link-color);
 }
 
 .publication-title a {
@@ -192,7 +215,7 @@ footer p {
 
 .publication-details {
     font-size: 1em;
-    color: #666;
+    color: var(--text-color);
     margin-top: 15px;
 }
 
