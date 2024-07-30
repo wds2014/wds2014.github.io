@@ -153,6 +153,7 @@ footer p {
     border-radius: 5px;
     background-color: #f188e10a;
     transition: background-color 0.3s, box-shadow 0.3s;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
 }
 
 .publication-item:hover {
@@ -161,7 +162,7 @@ footer p {
 }
 
 .publication-image {
-    width: 250px;
+    width: 250px; /* Increased width */
     height: auto;
     margin-right: 20px;
     transition: transform 0.3s;
@@ -173,6 +174,7 @@ footer p {
 
 .publication-info {
     flex: 1;
+    min-width: 200px; /* Ensure a minimum width for the info section */
 }
 
 .publication-title {
@@ -192,6 +194,25 @@ footer p {
     font-size: 1em;
     color: #666;
     margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+    .publication-item {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center align items */
+        text-align: center; /* Center align text */
+    }
+
+    .publication-image {
+        width: 100%; /* Full width image */
+        margin-right: 0; /* Remove right margin */
+        margin-bottom: 10px; /* Add bottom margin */
+    }
+
+    .publication-info {
+        width: 100%; /* Full width info section */
+        min-width: 0; /* Remove minimum width constraint */
+    }
 }
 
 .network {
