@@ -31,31 +31,24 @@ header img, footer img {
 
 .main-content {
     display: flex;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
 }
 
 .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 15vw; /* Sidebar width as a percentage of viewport width */
-    height: 100%;
     background-color: #f4f4f4;
     padding: 10px;
     overflow-y: auto;
 }
 
 .content {
-    margin-left: 15vw; /* Content margin matches the sidebar width */
+    flex: 1; /* Take remaining space */
     padding: 20px;
-    flex-grow: 1;
 }
 
 @media (max-width: 1200px) {
     .sidebar {
         width: 20vw; /* Adjust sidebar width */
-    }
-    .content {
-        margin-left: 20vw; /* Adjust content margin */
     }
 }
 
@@ -63,47 +56,36 @@ header img, footer img {
     .sidebar {
         width: 25vw; /* Adjust sidebar width */
     }
-    .content {
-        margin-left: 25vw; /* Adjust content margin */
-    }
 }
 
 @media (max-width: 768px) {
     .sidebar {
-        width: 30vw; /* Adjust sidebar width */
-    }
-    .content {
-        margin-left: 30vw; /* Adjust content margin */
-    }
-}
-
-@media (max-width: 576px) {
-    .content {
-        margin-left: 0; /* Full width on small screens */
-        padding-left: 20px; /* Add some padding on small screens */
-    }
-
-    .sidebar {
-        width: 100%; /* Full width sidebar */
-        height: auto; /* Adjust height */
+        width: 100%; /* Full width sidebar on small screens */
         position: relative; /* Position relative */
+        height: auto; /* Adjust height */
+        margin-bottom: 20px; /* Space between sidebar and content */
+    }
+
+    .content {
+        width: 100%; /* Full width content */
+        margin-left: 0; /* Remove left margin */
+        padding: 0 10px; /* Add some padding */
     }
 }
 
 nav .nav-table {
     width: 100%;
-	margin: 10px;
-	font-family: "Times New Roman", "��Բ";
-	font-weight: bold;
-	font-size: 18px;
+    margin: 10px;
+    font-family: "Times New Roman", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 nav .menu a {
     display: block;
-    padding: 5px 0;
-	padding-left: 10px;
+    padding: 5px 0 5px 10px;
     color: #EE7700;
-    font-family: "Times New Roman", "��Բ";
+    font-family: "Times New Roman", sans-serif;
     font-size: 16px;
     text-decoration: none;
     font-weight: bold;
@@ -116,17 +98,16 @@ nav .menu a:hover {
 
 .articlesubtitle {
     color: #555577;
-    font-family: "Times New Roman", "��Բ";
+    font-family: "Times New Roman", sans-serif;
     font-size: 16px;
     font-weight: bold;
-    text-decoration: none;
     margin: 10px 0;
 }
 
 ul.articlesubtitle {
     list-style-type: disc;
     padding: 10px;
-	margin-left: 20px;
+    margin-left: 20px;
 }
 
 ul.articlesubtitle li {
@@ -135,15 +116,14 @@ ul.articlesubtitle li {
 
 .articletitle {
     color: #EE7700;
-    font-family: Arial, "��Բ";
+    font-family: Arial, sans-serif;
     font-size: 18px;
     font-weight: bold;
-    text-decoration: none;
 }
 
 .foot {
     color: #909090;
-    font-family: "Times New Roman", "��Բ";
+    font-family: "Times New Roman", sans-serif;
     font-size: 12px;
     background-color: #eee;
     padding: 20px 0;
@@ -155,12 +135,10 @@ footer p {
 
 .article {
     color: #555577;
-    font-family: "Times New Roman", "��Բ";
+    font-family: "Times New Roman", sans-serif;
     font-size: 12px;
-    text-decoration: none;
     line-height: 18px;
 }
-
 
 .publication-list {
     list-style: none;
@@ -183,7 +161,7 @@ footer p {
 }
 
 .publication-image {
-    width: 250px; /* Increased width */
+    width: 250px;
     height: auto;
     margin-right: 20px;
     transition: transform 0.3s;
@@ -216,7 +194,6 @@ footer p {
     margin-top: 15px;
 }
 
-
 .network {
     display: flex;
     flex-direction: column;
@@ -235,7 +212,7 @@ footer p {
 }
 
 .name:hover {
-    color: blue; /* Change this to your preferred hover color */
+    color: blue;
     text-decoration: underline;
 }
 
