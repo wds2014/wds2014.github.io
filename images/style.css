@@ -289,7 +289,7 @@ ul.articlesubtitle li {
 }
 
 .publication-item:hover .publication-image {
-    transform: scale(1.05);
+    transform: scale(1.5);
 }
 
 .publication-info {
