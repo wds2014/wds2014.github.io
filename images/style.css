@@ -147,6 +147,34 @@ nav .title a {
     font-weight: 600;
 }
 
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding-top: 10px;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 30px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    background-color: var(--surface-color);
+    color: var(--link-color);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0;
+}
+
+.social-icon:hover {
+    background-color: var(--hover-bg-color);
+    color: var(--link-hover-color);
+    text-decoration: none;
+}
+
 nav hr {
     border: 0;
     border-top: 1px solid var(--border-color);
@@ -201,31 +229,6 @@ ul.articlesubtitle li {
 .topic-list strong,
 .notice-list strong {
     color: var(--heading-color);
-}
-
-.quick-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-top: 14px;
-}
-
-.quick-links a {
-    display: inline-flex;
-    align-items: center;
-    min-height: 34px;
-    padding: 6px 10px;
-    border: 1px solid var(--border-color);
-    border-radius: 6px;
-    background-color: var(--surface-color);
-    color: var(--link-color);
-    font-size: 14px;
-    font-weight: 700;
-}
-
-.quick-links a:hover {
-    background-color: var(--hover-bg-color);
-    text-decoration: none;
 }
 
 .notice-list {
