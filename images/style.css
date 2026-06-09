@@ -285,6 +285,11 @@ ul.articlesubtitle li {
     border-radius: 6px;
     border: 1px solid var(--border-color);
     object-fit: cover;
+    transition: transform 0.25s;
+}
+
+.publication-item:hover .publication-image {
+    transform: scale(1.05);
 }
 
 .publication-info {
