@@ -54,6 +54,7 @@
                 ],
                 news: [
                     "[05/2026] One paper is accepted by ICML 2026 (Zero-Shot 3D Question Answering via KeyVT). Our first paper to 3D world. Congratulations to all coauthors!",
+                    "[04/2026] Zhang Li received the Best Presentation Award at ICIGP. Congratulations!",
                     "[02/2026] Two papers are accepted by CVPR 2026 (SparseSAE and STiTch for Zero-Shot Composed Image Retrieval). Congratulations to all coauthors!",
                     "[07/2025] One paper is accepted by ICCV 2025 (Dynamic Multimodal Prototype Learning for CLIP). Congratulations to Xinyu!",
                     "[05/2025] One paper is accepted by IJCAI 2025 (Consistency Alignment for the Compositional Zero-Shot task). Congratulations to Miaoge!",
@@ -81,6 +82,7 @@
                 ],
                 news: [
                     "[05/2026] 一篇论文被 ICML 2026 接收（Zero-Shot 3D Question Answering via KeyVT）。这是面向 3D 世界理解的重要一步，祝贺所有合作者！",
+                    "[04/2026] 张莉在 ICIGP 获得 Best Presentation Award，祝贺！",
                     "[02/2026] 两篇论文被 CVPR 2026 接收（SparseSAE 和用于零样本组合图像检索的 STiTch）。祝贺所有合作者！",
                     "[07/2025] 一篇论文被 ICCV 2025 接收（Dynamic Multimodal Prototype Learning for CLIP）。祝贺 Xinyu！",
                     "[05/2025] 一篇论文被 IJCAI 2025 接收（Consistency Alignment for the Compositional Zero-Shot task）。祝贺 Miaoge！",
