@@ -9,6 +9,7 @@
                 "index.shtml.html": "Home",
                 "research.shtml.html": "Research",
                 "publications.shtml.html": "Publications",
+                "projects.shtml.html": "Projects",
                 "teaching.shtml.html": "Teaching",
                 "people.shtml.html": "People",
                 "professional.shtml.html": "Professional",
@@ -22,6 +23,7 @@
                 "index.shtml.html": "主页",
                 "research.shtml.html": "研究方向",
                 "publications.shtml.html": "发表论文",
+                "projects.shtml.html": "项目成果",
                 "teaching.shtml.html": "教学",
                 "people.shtml.html": "成员",
                 "professional.shtml.html": "学术服务",
@@ -61,11 +63,11 @@
                 ]
             },
             zh: {
-                headings: ["关于我", "招生信息", "实验室动态"],
+                headings: ["简介", "招生信息", "最新动态"],
                 about: [
-                    '我目前任职于<a href="https://www.szu.edu.cn/index.htm">深圳大学</a><a href="https://csse.szu.edu.cn/">计算机与软件学院</a><a href="https://vcc.tech/index">VCC 课题组</a>，担任助理教授。我于 2024 年在<a href="https://www.xidian.edu.cn/">西安电子科技大学</a>获得博士学位，2018 年在西安电子科技大学获得学士学位，博士导师为<a href="https://web.xidian.edu.cn/bchen/">陈波教授</a>。',
-                    "我的长期研究目标是构建可靠的人工智能系统，使其能够感知世界、进行推理、从反馈中学习，并最终在真实物理世界中智能行动。",
-                    "我们希望发展兼具理论原则和工程落地能力的算法与系统，将感知、语言、决策和行动连接起来。我们尤其关注具身智能：能够理解人类意图、从复杂环境中学习并在现实世界中帮助人类的 AI 智能体。欢迎有好奇心、主动性强，并愿意探索 AGI 前沿问题的同学加入。"
+                    '王东升现任<a href="https://www.szu.edu.cn/index.htm">深圳大学</a><a href="https://csse.szu.edu.cn/">计算机与软件学院</a><a href="https://vcc.tech/index">VCC 课题组</a>助理教授，2024 年博士毕业于<a href="https://www.xidian.edu.cn/">西安电子科技大学</a>，2018 年本科毕业于西安电子科技大学，博士导师为<a href="https://web.xidian.edu.cn/bchen/">陈渤教授</a>。',
+                    "研究长期目标是构建可靠、可解释、可交互的人工智能系统，让 AI 不只会识别和生成内容，也能理解环境、推理决策、从反馈中学习，并逐步走向真实物理世界。",
+                    "当前重点关注具身智能、多模态大模型和贝叶斯机器学习等前沿方向，鼓励从有趣的问题出发，既做扎实的方法，也做能跑起来、能被验证的系统。欢迎有好奇心、执行力和探索欲的同学一起把想法变成论文、代码和真实能力。"
                 ],
                 topics: [
                     "<strong>具身智能：</strong>VLA 模型、world model、智能体和 reward model。",
@@ -73,18 +75,18 @@
                     "<strong>机器学习与贝叶斯分析：</strong>变分推断、层次模型和最优传输。"
                 ],
                 positions: [
-                    "<strong>我们正在招收有热情的本科生和硕士生</strong>，方向包括具身智能、多模态基础模型、贝叶斯机器学习及相关领域。如果你喜欢提出大胆问题，也愿意动手构建真实系统，欢迎发送简历联系我。",
+                    "<strong>欢迎有热情的本科生和硕士生联系交流</strong>，方向包括具身智能、多模态基础模型、贝叶斯机器学习及相关领域。喜欢提出大胆问题、愿意动手构建真实系统的同学，会非常适合这里的研究节奏。",
                     '<strong>学生将有机会参与前沿研究问题</strong>，目标是在 AI/ML/CV 顶级会议发表论文。近期工作可参考<a href="research.shtml.html">研究方向</a>和<a href="publications.shtml.html">发表论文</a>。优秀学生可推荐到国内外优秀高校继续攻读博士学位。',
-                    "<strong>我也欢迎低年级博士生、硕士生和本科生进行非正式交流。</strong>如果你想讨论研究想法、职业规划，或 AGI 与具身智能的未来，欢迎联系我。我每周会专门留出时间进行这类交流。"
+                    "<strong>也欢迎低年级博士生、硕士生和本科生进行非正式交流。</strong>无论是研究想法、职业规划，还是 AGI 与具身智能的未来，都可以发邮件约时间聊一聊。"
                 ],
                 news: [
-                    "[05/2026] 一篇论文被 ICML 2026 接收（Zero-Shot 3D Question Answering via KeyVT）。这是我们第一篇面向 3D 世界理解的论文，祝贺所有合作者！",
+                    "[05/2026] 一篇论文被 ICML 2026 接收（Zero-Shot 3D Question Answering via KeyVT）。这是面向 3D 世界理解的重要一步，祝贺所有合作者！",
                     "[02/2026] 两篇论文被 CVPR 2026 接收（SparseSAE 和用于零样本组合图像检索的 STiTch）。祝贺所有合作者！",
                     "[07/2025] 一篇论文被 ICCV 2025 接收（Dynamic Multimodal Prototype Learning for CLIP）。祝贺 Xinyu！",
                     "[05/2025] 一篇论文被 IJCAI 2025 接收（Consistency Alignment for the Compositional Zero-Shot task）。祝贺 Miaoge！",
-                    "[07/2024] 我们将在 ECCV 2024 展示一篇论文（Instruction Tuning-free Visual Token Complement for MLLMs），并在 UAI 2024 展示一篇论文（Patch-Prompt Aligned Bayesian Prompt Tuning for Vision-Language Models）。祝贺所有合作者！",
-                    "[07/2024] Hello, SZU。我接受深圳大学邀请，加入计算机与软件学院 VCC 课题组，担任助理教授，开启新的学术阶段。",
-                    "我长期担任 NeurIPS、ICML、ICLR、CVPR、ICCV、ECCV、TPAMI、IJCV、TKDE 和 TNNLS 等顶级会议与期刊审稿人。"
+                    "[07/2024] 一篇论文将在 ECCV 2024 展示（Instruction Tuning-free Visual Token Complement for MLLMs），另一篇论文将在 UAI 2024 展示（Patch-Prompt Aligned Bayesian Prompt Tuning for Vision-Language Models）。祝贺所有合作者！",
+                    "[07/2024] Hello, SZU。加入深圳大学计算机与软件学院 VCC 课题组，开启新的学术阶段。",
+                    "长期担任 NeurIPS、ICML、ICLR、CVPR、ICCV、ECCV、TPAMI、IJCV、TKDE 和 TNNLS 等顶级会议与期刊审稿人。"
                 ]
             }
         },
@@ -104,7 +106,7 @@
             zh: {
                 headings: ["研究方向"],
                 paragraphs: [
-                    "我的研究聚焦于可靠人工智能系统，尤其关注如何建模复杂且充满不确定性的数据。我主要研究概率机器学习、生成模型和多模态表征学习。",
+                    "研究方向聚焦可靠人工智能系统，关注如何在复杂、不确定、多模态的数据和环境中进行建模、推理与决策。方法上覆盖概率机器学习、生成模型、多模态表征学习和具身智能。",
                     '近期工作请参考<a href="publications.shtml.html">发表论文</a>页面。'
                 ],
                 topics: [
@@ -124,6 +126,36 @@
                 note: '完整列表见 <a href="https://scholar.google.com/citations?hl=en&user=i7tj4z0AAAAJ" target="_blank" rel="noopener">Google Scholar</a>。* 表示共同一作，# 表示通讯作者。'
             }
         },
+        "projects.shtml.html": {
+            en: {
+                h1: "Projects",
+                intro: "This page collects research prototypes, competition projects, and practical systems developed around embodied AI, multimodal understanding, and reliable machine learning.",
+                title: "Zhilian GUI Assistant",
+                description: "A multimodal GUI agent that understands natural-language instructions, plans multi-step actions, and operates mobile apps through both software control and a real robotic-arm execution platform.",
+                tags: ["GUI Agent", "Embodied AI", "Multimodal Agent", "Robotic Arm", "GRPO"],
+                labels: ["Award", "Members", "Advisor"],
+                values: [
+                    "Challenge Cup National Second Prize",
+                    "Deng Ruilin, Zhang Xin, Zhan Jiaxin, Tan Yumin, Zhang Jinsen",
+                    "Dongsheng Wang"
+                ],
+                links: ["Code", "Video"]
+            },
+            zh: {
+                h1: "项目成果",
+                intro: "这里记录围绕具身智能、多模态理解和可靠机器学习展开的研究原型、竞赛项目和实际系统。",
+                title: "智联AI助手",
+                description: "面向移动端应用交互的多模态 GUI 智能体，能够理解自然语言指令、规划多步操作，并通过软件控制与机械臂平台完成真实设备执行。",
+                tags: ["GUI 智能体", "具身智能", "多模态智能体", "机械臂执行", "GRPO"],
+                labels: ["奖项", "成员", "指导教师"],
+                values: [
+                    "挑战杯全国二等奖",
+                    "邓瑞霖、张馨、詹佳欣、谭育敏、张锦森",
+                    "王东升"
+                ],
+                links: ["代码", "视频"]
+            }
+        },
         "teaching.shtml.html": {
             en: {
                 headings: ["Courses", "2026 Spring", "2025 Fall"],
@@ -137,10 +169,10 @@
             zh: {
                 headings: ["教学", "2026 春季", "2025 秋季"],
                 courses: [
-                    '<a href="https://lms.szu.edu.cn/course/15956/index" target="_blank" rel="noopener">操作系统 01</a>，至理楼 L1 511。',
-                    '<a href="https://lms.szu.edu.cn/course/15957/index#/" target="_blank" rel="noopener">操作系统 02</a>，至理楼 L1 511。',
-                    '<a href="https://lms.szu.edu.cn/course/7831/index#/" target="_blank" rel="noopener">操作系统</a>，至理楼 L1 711。',
-                    '<a href="https://lms.szu.edu.cn/course/11373/index#/" target="_blank" rel="noopener">算法设计与分析</a>，至理楼 L1 504。'
+                    '<a href="https://lms.szu.edu.cn/course/15956/index" target="_blank" rel="noopener">操作系统 01</a>，致理楼 L1 511。',
+                    '<a href="https://lms.szu.edu.cn/course/15957/index#/" target="_blank" rel="noopener">操作系统 02</a>，致理楼 L1 511。',
+                    '<a href="https://lms.szu.edu.cn/course/7831/index#/" target="_blank" rel="noopener">操作系统</a>，致理楼 L1 711。',
+                    '<a href="https://lms.szu.edu.cn/course/11373/index#/" target="_blank" rel="noopener">算法设计与分析</a>，致理楼 L1 504。'
                 ]
             }
         },
@@ -167,8 +199,8 @@
             zh: {
                 headings: ["招生信息", "当前学生"],
                 prospective: [
-                    "<strong>我们正在招收有热情的本科生和硕士生</strong>，方向包括具身智能、多模态基础模型、贝叶斯机器学习及相关领域。如果你喜欢提出大胆问题，也愿意动手构建真实系统，欢迎发送简历联系我。",
-                    '<strong>学生将有机会参与前沿研究问题</strong>，目标是在 AI/ML/CV 顶级会议发表论文。近期工作可参考<a href="research.shtml.html">研究方向</a>和<a href="publications.shtml.html">发表论文</a>。'
+                    "<strong>欢迎对具身智能、多模态基础模型、贝叶斯机器学习感兴趣的本科生和硕士生联系交流。</strong>适合喜欢追前沿、愿意写代码、也愿意把问题想清楚的同学。",
+                    '<strong>学生将有机会参与前沿研究问题</strong>，目标是在 AI/ML/CV 顶级会议发表论文。这里鼓励开放讨论、快速试错和长期积累；近期工作可参考<a href="research.shtml.html">研究方向</a>和<a href="publications.shtml.html">发表论文</a>。'
                 ],
                 studentMeta: [
                     ["2024级硕士研究生", "多模态大模型可解释性"],
@@ -208,7 +240,7 @@
                 h1: "联系方式",
                 labels: ["办公室", "邮箱", "地址"],
                 values: [
-                    "至真楼 L6-711",
+                    "致真楼 L6-711",
                     "dongshengwang@szu[dot]edu[dot]cn, wds_dana[at]163[dot]com",
                     "广东省深圳市南山区深圳大学沧海校区计算机与软件学院，邮编 518060"
                 ]
@@ -293,6 +325,21 @@
         setHTMLList(document.querySelectorAll(".content li"), data.courses);
     }
 
+    function applyProjects(data) {
+        const h1 = document.querySelector(".content h1.articletitle");
+        if (h1) h1.textContent = data.h1;
+        const intro = document.querySelector(".content > section > p.articlesubtitle");
+        if (intro) intro.textContent = data.intro;
+        const title = document.querySelector(".project-info h2");
+        if (title) title.textContent = data.title;
+        const description = document.querySelector(".project-info > p");
+        if (description) description.textContent = data.description;
+        setTextList(document.querySelectorAll(".project-tags span"), data.tags);
+        setTextList(document.querySelectorAll(".project-meta dt"), data.labels);
+        setTextList(document.querySelectorAll(".project-meta dd"), data.values);
+        setTextList(document.querySelectorAll(".project-links a"), data.links);
+    }
+
     function applyPeople(data) {
         setTextList(document.querySelectorAll(".content h1.articletitle"), data.headings);
         setHTMLList(document.querySelectorAll(".notice-list > li"), data.prospective);
@@ -331,6 +378,7 @@
         if (name === "index.shtml.html") applyIndex(lang, data);
         if (name === "research.shtml.html") applyResearch(data);
         if (name === "publications.shtml.html") applyPublications(lang, data);
+        if (name === "projects.shtml.html") applyProjects(data);
         if (name === "teaching.shtml.html") applyTeaching(data);
         if (name === "people.shtml.html") applyPeople(data);
         if (name === "professional.shtml.html") applyProfessional(data);
