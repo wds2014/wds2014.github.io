@@ -15,7 +15,7 @@
                 "professional.shtml.html": "Professional",
                 "contact.shtml.html": "Contact"
             },
-            footer: 'Last updated on <time datetime="2026-06-09">June 9th, 2026</time>. Designed by GPT-4. &copy; Dongsheng Wang.'
+            footer: 'Last updated on <time datetime="2026-06-09">June 9th, 2026</time>. Designed by OpenClaw. &copy; Dongsheng Wang.'
         },
         zh: {
             title: "深圳大学助理教授",
@@ -29,7 +29,7 @@
                 "professional.shtml.html": "学术服务",
                 "contact.shtml.html": "联系"
             },
-            footer: '<time datetime="2026-06-09">2026年6月9日</time>更新。Designed by GPT-4. &copy; Dongsheng Wang.'
+            footer: '<time datetime="2026-06-09">2026年6月9日</time>更新。Designed by OpenClaw. &copy; Dongsheng Wang.'
         }
     };
 
