@@ -15,7 +15,7 @@
                 "professional.shtml.html": "Professional",
                 "contact.shtml.html": "Contact"
             },
-            footer: 'Last updated on <time datetime="2026-06-09">June 9th, 2026</time>. Designed by OpenClaw. &copy; Dongsheng Wang.'
+            footer: 'Last updated on <time datetime="2026-10-01">October 1st, 2026</time>. Designed by OpenClaw. &copy; Dongsheng Wang.'
         },
         zh: {
             title: "深圳大学助理教授",
@@ -29,7 +29,7 @@
                 "professional.shtml.html": "学术服务",
                 "contact.shtml.html": "联系"
             },
-            footer: '<time datetime="2026-06-09">2026年6月9日</time>更新。Designed by OpenClaw. &copy; Dongsheng Wang.'
+            footer: '<time datetime="2026-10-01">2026年10月1日</time>更新。Designed by OpenClaw. &copy; Dongsheng Wang.'
         }
     };
 
